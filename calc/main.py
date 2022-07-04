@@ -86,7 +86,7 @@ async def cancel(update: Update, context: ContextTypes):
 
 
 
-app = ApplicationBuilder().token("5484921901:AAF7OJVbEsiHSnUEuM417j5REfl0Mlm0QAQ").build()
+app = ApplicationBuilder().token("").build()
 
 start_handler = CommandHandler('start', start)
 first_handler = MessageHandler(filters.TEXT, input1)
